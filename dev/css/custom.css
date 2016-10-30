@@ -1,0 +1,59 @@
+h1{
+	display: block;
+	margin-top: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;	
+	font-size: 280px;
+	text-align: left;
+	margin-left: 70px;
+	color: #fff;
+}
+
+.TopBorder{
+
+	background-color: #fff;
+	z-index: -1;
+	height: 34px;
+	position: relative;
+}
+
+.Downfooter{
+
+	height: 20px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 70;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0.9em;
+    padding: 8px 0 8px 0;
+
+}
+
+.lineUp{
+
+	
+	height: 60px;
+	width: 100%;
+	margin-top: -70px;
+	z-index: -1;
+	display: block;
+	position: absolute;
+	margin-left: -80px;
+
+}
+
+.lineDown{
+
+	height: 60px;
+	width: 100%;
+	margin-top: 120px;
+	z-index: -1;
+	display: block;
+	position: absolute;
+	margin-left: -80px;
+
+	
+
+}
